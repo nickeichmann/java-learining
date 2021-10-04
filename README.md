@@ -1,5 +1,5 @@
 # java-learining
-<p> In this repository i will add all learnings from W3School. </p>
+<p> In this repository i will add all learnings from W3School. Have fun!</p>
 
 ## Link
 <p> The W3School course you will find at: </p>
