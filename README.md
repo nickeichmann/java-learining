@@ -3,4 +3,4 @@
 
 ## Link
 <p> The W3School course you will find at: </p>
-<a> https://www.w3schools.com/java/java_intro.asp </a>
+<a href='https://www.w3schools.com/java/java_intro.asp'> click here </a>
