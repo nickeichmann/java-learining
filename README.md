@@ -12,4 +12,4 @@ float - stores floating point numbers, with decimals, such as 19.99 or -19.99 </
 char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes </br>
 boolean - stores values with two states: true or false</br></p>
 
-<p> You'll find an overview of all data types </p><a href='https://www.w3schools.com/java/java_data_types.asp'> here </a>
+<p> You'll find an overview of all data types <a href='https://www.w3schools.com/java/java_data_types.asp'> here </a> </p>
