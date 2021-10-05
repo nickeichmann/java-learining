@@ -19,7 +19,7 @@ public class Main {
 
       // Transform a variable
       double x_float = x;
-      System.out.println(x);
+      System.out.println(x_float);
 
       // narowing a variable
       double z = 10.56;
@@ -55,21 +55,68 @@ public class Main {
       \f	Form Feed
       */
 
+
       // xxxxxxxxxxxxxxxxxxxxxxxxxx Working with Math xxxxxxxxxxxxxxxxxxxxxxxxx
+      // all matho functions https://www.w3schools.com/java/java_ref_math.asp
 
       // find the largest or smalles number
-      max_numb = Math.max(1,2,10,20); // max_numb = 20
-      min_numb = Math.min(1,2,10,20); // min_numb = 1
+      int max_numb = Math.max(10,20); // max_numb = 20
+      int min_numb = Math.min(10,20); // min_numb = 1
 
       // Square root
-      root = Math.sqrt(64); // root = 8
+      double root = Math.sqrt(64); // root = 8
 
       // make numbers absolute (positive)
-      pos = Math.abs(-4.7); // pos = 4.7
+      double pos = Math.abs(-4.7); // pos = 4.7
+      //System.out.println(pos);
 
       // Random Nuber
-      rand = Math.random(); // rand will be between 0 and 1
-      int rand_50 = (int)(Math.random() * 51);
+      double rand = Math.random(); // rand will be between 0 and 1
+      double rand_50 = (int)(Math.random() * 51);
+      //System.out.println(rand_50);
 
+
+      // xxxxxxxxxxxxxxxxxxxxxxxxxx If...else Statement xxxxxxxxxxxxxxxxxxxxxxxxx
+
+      int time = 20;
+      if (time < 18) {
+        System.out.println("Good day.");}
+      else {
+          System.out.println("Good evening.");
+
+
+      // xxxxxxxxxxxxxxxxxxxxxxxxxx Switch Statement xxxxxxxxxxxxxxxxxxxxxxxxx
+      //The switch statement activates one specific case
+      int day = 4;
+      switch (day) {
+        case 1:
+          System.out.println("Monday");
+          break;
+        case 2:
+          System.out.println("Tuesday");
+          break;
+        case 3:
+          System.out.println("Wednesday");
+          break;
+        case 4:
+          System.out.println("Thursday");
+          break;
+        case 5:
+          System.out.println("Friday");
+          break;
+        case 6:
+          System.out.println("Saturday");
+          break;
+        case 7:
+          System.out.println("Sunday");
+          break;
+        default:
+          System.out.println("Number not in range 1-7");
+
+
+      // xxxxxxxxxxxxxxxxxxxxxxxxxx While loops xxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+} 
     }
     }
