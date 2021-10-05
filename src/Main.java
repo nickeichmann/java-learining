@@ -16,6 +16,15 @@ public class Main {
       int x = 10;
       int y = 20;
       System.out.println(x+y);
-    }
 
-  }
+      // Transform a variable
+      double x_float = x;
+      System.out.println(x);
+
+      // narowing a variable
+      double z = 10.56;
+      z += 10; // add 10 to z
+      int z_narrowed = (int) z;
+      System.out.println(z_narrowed);
+    }
+    }
