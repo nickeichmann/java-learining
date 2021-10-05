@@ -13,3 +13,6 @@ char - stores single characters, such as 'a' or 'B'. Char values are surrounded 
 boolean - stores values with two states: true or false</br></p>
 
 <p> You'll find an overview of all data types <a href='https://www.w3schools.com/java/java_data_types.asp'> here </a> </p>
+
+## Operators
+<p> You'll find an overview of all operators <a href='https://www.w3schools.com/java/java_operators.asp'> here </a> </p>
