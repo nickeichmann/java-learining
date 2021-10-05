@@ -26,5 +26,29 @@ public class Main {
       z += 10; // add 10 to z
       int z_narrowed = (int) z;
       System.out.println(z_narrowed);
+
+      // Working with Strings
+      String text = "Hallo ich bin Nick";
+      String text2 = " Wer bist du?";
+      System.out.println("THe length of the String 'text' is: " + text.length());
+      
+      /* other usefull functions are:
+      text.toUpperCase() -> makes the whole String upper case
+      text.toLowerCase() -> makes the whole String lower case
+      text.indexOf("ich") -> returns the index value of "ich" in the String text #6
+      text.concat(text2) -> binds the two strings together */
+
+      /* And important textual elements:
+
+      \' =	'	= Single quote
+      \" = "	= Double quote
+      \\ = \	= Backslash
+
+      \n	New Line	
+      \r	Carriage Return	
+      \t	Tab	
+      \b	Backspace	
+      \f	Form Feed
+
     }
     }
