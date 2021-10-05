@@ -27,6 +27,10 @@ public class Main {
       int z_narrowed = (int) z;
       System.out.println(z_narrowed);
 
+
+
+      // xxxxxxxxxxxxxxxxxxxxxxxxxx Working with Strings xxxxxxxxxxxxxxxxxxxxxxxxx
+
       // Working with Strings
       String text = "Hallo ich bin Nick";
       String text2 = " Wer bist du?";
@@ -49,6 +53,23 @@ public class Main {
       \t	Tab	
       \b	Backspace	
       \f	Form Feed
+      */
+
+      // xxxxxxxxxxxxxxxxxxxxxxxxxx Working with Math xxxxxxxxxxxxxxxxxxxxxxxxx
+
+      // find the largest or smalles number
+      max_numb = Math.max(1,2,10,20); // max_numb = 20
+      min_numb = Math.min(1,2,10,20); // min_numb = 1
+
+      // Square root
+      root = Math.sqrt(64); // root = 8
+
+      // make numbers absolute (positive)
+      pos = Math.abs(-4.7); // pos = 4.7
+
+      // Random Nuber
+      rand = Math.random(); // rand will be between 0 and 1
+      int rand_50 = (int)(Math.random() * 51);
 
     }
     }
