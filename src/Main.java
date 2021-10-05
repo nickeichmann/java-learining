@@ -55,6 +55,11 @@ public class Main {
       \f	Form Feed
       */
 
+      // xxxxxxxxxxxxxxxxxxxxxxxxxx Working with Arrays xxxxxxxxxxxxxxxxxxxxxxxxx
+      String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+      System.out.println(cars[1]); // would output BMW
+      cars[0] = "Opel"; // Changes value "Volvo" to "Opel"
+      System.out.println(cars.length); // outputs the length of the array
 
       // xxxxxxxxxxxxxxxxxxxxxxxxxx Working with Math xxxxxxxxxxxxxxxxxxxxxxxxx
       // all matho functions https://www.w3schools.com/java/java_ref_math.asp
@@ -116,7 +121,41 @@ public class Main {
 
       // xxxxxxxxxxxxxxxxxxxxxxxxxx While loops xxxxxxxxxxxxxxxxxxxxxxxxx
 
+      int i = 0;
+      while (i < 5) {
+        System.out.println(i);
+        i++; // increase by one
+      }
 
-} 
+      int n = 0;
+      do {
+        System.out.println(i);
+        n++; // increase by one
+        }
+      while (n < 5);
+      
+      // xxxxxxxxxxxxxxxxxxxxxxxxxx For loops xxxxxxxxxxxxxxxxxxxxxxxxx
+}     /*
+      for (statement 1; statement 2; statement 3) {
+        // code block to be executed
+      }
+
+      Statement 1 is executed (one time) before the execution of the code block.
+      Statement 2 defines the condition for executing the code block.
+      Statement 3 is executed (every time) after the code block has been executed.
+      */
+
+      for (int i = 0; i < 5; i++) {
+        System.out.println(i);
+      } // prints numbers from 0 - 4
+
+      // loop through an array
+      String[] car = {"Volvo", "BMW", "Ford", "Mazda"};
+      for (String i : car) {
+      System.out.println(i);
+}
+
+    
+    }
     }
     }
