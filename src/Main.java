@@ -5,8 +5,10 @@ multi line comment*/
 
 //another line
 
+//package ch.uzh.ifi.zest;
+
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) { // ths method can be run from the terminal
       String hw = "Hello World variable";
       int number = 12; // if I would add a final in front of int, it would not be overwritable
       number = 13;
