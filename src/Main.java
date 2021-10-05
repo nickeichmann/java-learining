@@ -149,10 +149,12 @@ public class Main {
         System.out.println(i);
       } // prints numbers from 0 - 4
 
+      
       // loop through an array
       String[] car = {"Volvo", "BMW", "Ford", "Mazda"};
       for (String i : car) {
       System.out.println(i);
+      
 }
 
     
